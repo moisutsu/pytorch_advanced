@@ -371,6 +371,18 @@ traitlets = "*"
 
 [[package]]
 category = "main"
+description = "Multi-Language Server WebSocket proxy for Jupyter notebook or lab server for Python 3.5+."
+name = "jupyter-lsp"
+optional = false
+python-versions = "*"
+version = "0.8.0"
+
+[package.dependencies]
+notebook = ">=4.3.1"
+setuptools = "*"
+
+[[package]]
+category = "main"
 description = "The JupyterLab notebook server extension."
 name = "jupyterlab"
 optional = false
@@ -1035,7 +1047,7 @@ python-versions = "*"
 version = "0.5.1"
 
 [metadata]
-content-hash = "6ff5fb65acd97d997b341d5b1891bb7a799f61a371c19c57b59e9b123b2c3c5a"
+content-hash = "f0caa37181253302ab9478ca2e93e29e30caa02243ed344f770f3310ac09a413"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1246,6 +1258,9 @@ jupyter-client = [
 jupyter-core = [
     {file = "jupyter_core-4.6.3-py2.py3-none-any.whl", hash = "sha256:a4ee613c060fe5697d913416fc9d553599c05e4492d58fac1192c9a6844abb21"},
     {file = "jupyter_core-4.6.3.tar.gz", hash = "sha256:394fd5dd787e7c8861741880bdf8a00ce39f95de5d18e579c74b882522219e7e"},
+]
+jupyter-lsp = [
+    {file = "jupyter-lsp-0.8.0.tar.gz", hash = "sha256:3abe20ec48a3f6b132653abe597af2b6cd0005539ab0d74e0ba203927124d333"},
 ]
 jupyterlab = [
     {file = "jupyterlab-2.1.3-py3-none-any.whl", hash = "sha256:7a7cbdb8c227007a020a10d23217c7c931e0afe758e688f7b833cbd30d6a29b5"},
